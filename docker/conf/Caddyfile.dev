@@ -1,0 +1,15 @@
+
+  # The address of your serverlocalhost
+
+0.0.0.0:8090
+
+route {
+    mercure {
+        # Publisher JWT key
+        publisher_jwt !ChangeMe!
+        # Subscriber JWT key
+        subscriber_jwt !ChangeMe!
+    }
+
+    respond "Not Found" 404
+}
